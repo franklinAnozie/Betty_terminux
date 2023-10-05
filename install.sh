@@ -10,9 +10,9 @@ BETTY_STYLE="betty-style"
 BETTY_DOC="betty-doc"
 BETTY_WRAPPER="betty"
 
-APP_PATH="/opt/betty"
-BIN_PATH="/usr/local/bin"
-MAN_PATH="/usr/local/share/man/man1"
+APP_PATH="/data/data/com.termux/opt/betty"
+BIN_PATH="/data/data/com.termux/bin"
+MAN_PATH="/data/data/com.termux/files/man/man1"
 
 echo -e "Installing binaries.."
 
