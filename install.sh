@@ -4,7 +4,7 @@ BETTY_STYLE="betty-style"
 BETTY_DOC="betty-doc"
 BETTY_WRAPPER="betty"
 
-APP_PATH="${OLDPWD}/usr/opt/betty"
+APP_PATH="${OLDPWD}/usr/betty"
 BIN_PATH="${OLDPWD}/usr/bin"
 MAN_PATH="${OLDPWD}/usr/man/man1"
 
