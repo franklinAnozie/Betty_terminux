@@ -6,4 +6,5 @@ then
     echo $pref
 else
     pref="${PATH}"
+    echo $pref
 fi
