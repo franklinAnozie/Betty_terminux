@@ -4,9 +4,9 @@ BETTY_STYLE="betty-style"
 BETTY_DOC="betty-doc"
 BETTY_WRAPPER="betty"
 
-APP_PATH="/data/data/com.termux/files/usr/opt/betty"
-BIN_PATH="/data/data/com.termux/files/usr/bin"
-MAN_PATH="/data/data/com.termux/files/usr/man/man1"
+APP_PATH="${OLDPWD}/usr/opt/betty"
+BIN_PATH="${OLDPWD}/usr/bin"
+MAN_PATH="${OLDPWD}/usr/man/man1"
 
 echo -e "Installing binaries.."
 
