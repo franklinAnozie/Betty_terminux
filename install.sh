@@ -10,7 +10,7 @@ MAN_PATH="${OLDPWD}/usr/man/man1"
 
 echo -e "Installing binaries.."
 
-mkdir -p "${APP_PATH}"
+mkdir -pv "${APP_PATH}"
 
 cp "${BETTY_STYLE}.pl" "${APP_PATH}/${BETTY_STYLE}"
 cp "${BETTY_DOC}.pl" "${APP_PATH}/${BETTY_DOC}"
