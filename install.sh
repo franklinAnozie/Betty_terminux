@@ -36,4 +36,8 @@ echo -e "Updating man database.."
 
 mandb
 
+echo -e "Installing perl.."
+
+pkg install perl
+
 echo -e "All set."
