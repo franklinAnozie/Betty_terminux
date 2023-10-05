@@ -1,18 +1,12 @@
 #!/bin/bash
 
-if [ "$(id -u)" != "0" ]
-then
-	echo "Sorry, you are not root."
-	exit 1
-fi
-
 BETTY_STYLE="betty-style"
 BETTY_DOC="betty-doc"
 BETTY_WRAPPER="betty"
 
-APP_PATH="/data/data/com.termux/opt/betty"
-BIN_PATH="/data/data/com.termux/bin"
-MAN_PATH="/data/data/com.termux/files/man/man1"
+APP_PATH="/data/data/com.termux/files/usr/opt/betty"
+BIN_PATH="/data/data/com.termux/files/usr/bin"
+MAN_PATH="/data/data/com.termux/files/usr/man/man1"
 
 echo -e "Installing binaries.."
 
