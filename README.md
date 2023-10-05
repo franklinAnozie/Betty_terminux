@@ -1,10 +1,12 @@
 # Betty
 
+This version runs betty on you mobile phone via terminals such as termux.
+
 [![Build Status](https://travis-ci.org/holbertonschool/Betty.svg?branch=master)](https://travis-ci.org/holbertonschool/Betty)
 
 ### Installation
 
-Run the script `install.sh` with **sudo privileges** to install `betty-style` and `betty-doc` on your computer, along with the  following manuals:
+Run the script `install.sh` to install `betty-style` and `betty-doc` on your computer, along with the  following manuals:
 
  * _betty(1)_
  * _betty-style(1)_
