@@ -1,10 +1,10 @@
 #!/bin/bash
 pref=""
-if [[ ${PATH} == *usr* ]]
+if [[ ${PREFIX} == *usr* ]]
 then
-    pref="${PATH%'/'*}"
+    pref="${PREFIX%'/'*}"
     echo $pref
 else
-    pref="${PATH}"
+    pref="${PREFIX}"
     echo $pref
 fi
